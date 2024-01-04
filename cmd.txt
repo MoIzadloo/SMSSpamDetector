@@ -1,0 +1,4 @@
+python3 ./job.py test.txt -r hadoop > output.json --files spam.csv,model.pkl
+hdfs dfs -get /app-logs/root/logs-tfile/application_1704274041352_0013 ./
+pip3 install scikit-learn pandas
+cd Workspace
